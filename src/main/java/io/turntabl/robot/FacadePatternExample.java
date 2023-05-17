@@ -7,8 +7,8 @@ public class FacadePatternExample {
     public FacadePatternExample() {}
 
     public static void main(String[] args) {
-        System.out.println("***Facade Pattern Demo****");
-
+        System.out.println("*****Facade Pattern Demo****");
+        System.out.println("==============================");
         // Creating a Robot
         RobotFacade milanoRobotFacade = new RobotFacade();
         milanoRobotFacade.constructRobot();
