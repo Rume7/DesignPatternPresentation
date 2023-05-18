@@ -1,4 +1,6 @@
-package io.turntabl.hometheater;
+package io.turntabl.hometheater.facade;
+
+import io.turntabl.hometheater.*;
 
 public class HomeTheaterFacade {
 
