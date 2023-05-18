@@ -9,7 +9,7 @@ public class TheaterLights extends ElectronicDevice{
     }
 
     public void dim(int intensity) {
-        System.out.println("Lights now dim by " + intensity + " candela");
+        System.out.println("Lights now dim by " + intensity + " Candela");
     }
 
 }
