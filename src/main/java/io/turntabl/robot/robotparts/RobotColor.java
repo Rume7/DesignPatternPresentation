@@ -14,7 +14,6 @@ public class RobotColor {
 
     public void setChoiceColor(Color color) {
         this.color = color;
-
     }
 
     @Override
