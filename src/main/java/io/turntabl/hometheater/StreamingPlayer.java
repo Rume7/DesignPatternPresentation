@@ -1,27 +1,27 @@
 package io.turntabl.hometheater;
 
-public class StreamingPlayer {
+public class StreamingPlayer extends ElectronicDevice {
 
-    public void on() {
-        System.out.println("Radio is now ON");
+    private Amplifier amplifier;
+
+    public StreamingPlayer(String name, Amplifier amplifier) {
+        super(name);
+        this.amplifier = amplifier;
     }
 
-    public void setAMStation() {
-        System.out.println("54.3AM has been chosen.");
-        System.out.println("Enjoy the news.");
+    public void pause() {
+        System.out.println("Streaming Player has been PAUSED.");
     }
 
-    public void setFMStation() {
-        System.out.println("99.2FM has been chosen.");
-        System.out.println("Enjoy cool music.");
+    public void play() {
+        System.out.println("Streaming Player has started PLAYING.");
     }
 
-    public void off() {
-        System.out.println("Radio is now OFF.");
+    public void stop() {
+        System.out.println("Streaming Player has STOPPED.");
     }
 
-    @Override
-    public String toString() {
-        return "Radio Tuner";
+    public void setSurroundSound() {
+        this.amplifier.setSurroundSound();
     }
 }
